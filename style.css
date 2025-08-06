@@ -1,0 +1,91 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header,
+.info-section,
+.footer-section {
+    width: 800px;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: normal;
+    margin: 0;
+    padding: 20px 0;
+}
+
+header p a,
+.footer-section p a {
+    color: #33ffc2; /* Aquamarine */
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+main {
+    width: 380px; /* Breite des Videos wie im Bild */
+    margin: 10px 10;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    border: 0px solid white;
+    border-radius: 25px; /* Angenommener Wert für die Ecken */
+}
+
+.info-section {
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.info-section p {
+    font-size: 19px;
+    color: #5a5a5a; /* Grau */
+    margin: 10px 0;
+}
+
+.camping-image img {
+    width: 900px;
+    height: auto;
+    margin: 20px 0;
+}
+
+.footer-section img {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.footer-section h2 {
+    font-size: 45px;
+    font-weight: normal;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+footer {
+    width: 800px;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    font-size: 20px;
+    color: #585858; /* Grau */
+    text-align: right;
+    margin: 0;
+}
