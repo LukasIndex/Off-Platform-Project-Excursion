@@ -36,12 +36,6 @@ main {
     margin: 10px 10;
 }
 
-video {
-    width: 100%;
-    height: auto;
-    border: 0px solid white;
-    border-radius: 25px; /* Angenommener Wert für die Ecken */
-}
 
 .info-section {
     margin-top: 50px;
